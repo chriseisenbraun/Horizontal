@@ -5,106 +5,83 @@
 @import url(http://fonts.googleapis.com/css?family=Sansita+One);
 
 /* apply a natural box layout model to all elements */
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
- 
 /* Clear fix */
+
 .clear:before,
 .clear:after {
-    content: " ";
-    display: table;
+	content: " ";
+	display: table;
 }
-
 .clear:after {
-    clear: both;
+	clear: both;
 }
-
 /**** Page Stlying ***/
 
 html {
-  background: #96CEB4;
-  font-family: 'Sansita One', cursive;
+	background: #96CEB4;
+	font-family: 'Sansita One', cursive;
 }
-
 h1 {
-  font-size: 3em;
-  color: #FF6F69;
-  text-shadow: -2px 4px 0 #FFEEAD;
-  text-align: center;
+	font-size: 3em;
+	color: #FF6F69;
+	text-shadow: -2px 4px 0 #FFEEAD;
+	text-align: center;
 }
-
 .wrap {
-    margin: 0.625em auto;
-    width: 90%;
+	margin: 0.625em auto;
+	width: 90%;
 }
-
 /**** Menu Stlying ***/
 
 nav {
-  background: #FF6F69;
-  height: 2.3em;
-  width: 100%;
-
-  
+	background: #FF6F69;
+	height: 2.3em;
+	width: 100%;
 }
-
-ul, li {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    float: left; 
- 
-  
-  
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
 }
-
 ul {
-  background: #FFEEAD;
-  height: 2em;
-  width: 100%; 
-
-
- 
-  
+	background: #FFEEAD;
+	height: 2em;
+	width: 100%;
 }
-
 li a {
-  display: block;
-  line-height: 2em;
-  padding: 0 1em;
-  text-decoration: none;
-  color: #FF6F69;  
-  
-  
+	display: block;
+	line-height: 2em;
+	padding: 0 1em;
+	text-decoration: none;
+	color: #FF6F69;
 }
-
-
 li a:hover {
-background: #FF6F69;
- color: #FFEEAD;
-  height: 2.3em;
-  padding-top: .3em;
-  position: relative;
-  top: -.3em;
-  border-radius: .3em .3em 0 0;
- 
+	background: #FF6F69;
+	color: #FFEEAD;
+	height: 2.3em;
+	padding-top: .3em;
+	position: relative;
+	top: -.3em;
+	border-radius: .3em .3em 0 0;
 }
-
 .current,
-a:hover.current
-{
-  background: #FF6F69;
- color: #FFEEAD;
-  height: 2.3em;
-  padding-top: .3em;
-  position: relative;
-  top: -.3em;
-  border-radius: .3em .3em 0 0;
-  cursor: default;
-  
+a:hover.current {
+	background: #FF6F69;
+	color: #FFEEAD;
+	height: 2.3em;
+	padding-top: .3em;
+	position: relative;
+	top: -.3em;
+	border-radius: .3em .3em 0 0;
+	cursor: default;
 }
-
-
